@@ -1,0 +1,24 @@
+{
+  "name": "follow-vue-cli",
+  "version": "1.0.0",
+  "description": "Learn to use node to build cli",
+  "main": "index.js",
+  "bin": {
+     "xvue": "./bin/xvue.js"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuzhanbo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "handlebars": "^4.7.7",
+    "open": "^8.0.4",
+    "ora": "^5.4.0"
+  }
+}
