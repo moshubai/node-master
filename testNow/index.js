@@ -2,10 +2,6 @@ const path = require('path')
 const fs = require('fs')
 module.exports = class TestNow {
 
-
-
-
-
     getJestSource(sourcePath = path.resolve('./')) {
         const testPath = `${sourcePath}/__test__`
         if (!fs.existsSync(testPath)) {
