@@ -7,6 +7,8 @@ const { clone } = require('./download')
 
 const log = content => console.log(chalk.green(content))
 
+
+// window系统的BUG，在window中child_process子进程是无法选择执行那个文件的，因为
 const isWin32 = process.platform === 'win32'
 
 

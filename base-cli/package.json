@@ -1,10 +1,10 @@
 {
-  "name": "follow-vue-cli",
+  "name": "base-cli",
   "version": "1.0.0",
   "description": "Learn to use node to build cli",
   "main": "index.js",
   "bin": {
-     "xvue": "./bin/xvue.js"
+     "base": "./bin/base.js"
     },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
